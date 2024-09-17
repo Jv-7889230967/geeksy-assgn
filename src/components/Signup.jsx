@@ -14,7 +14,7 @@ const Signup = () => {
   const onSubmit = (data) => {
     localStorage.setItem('userData', JSON.stringify(data));
     console.log('Data saved to local storage:', data);
-    navigate('/home')
+    navigate('/login')
   };
 
   return (
