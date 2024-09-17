@@ -1,0 +1,66 @@
+.login-container
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page{
+    height: 60vh;
+    min-height: 500px;
+    width: 30vw;
+    min-width: 360px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 4px #888888;
+}
+h2{
+   font-style: italic;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form
+{
+    height: 70%;
+    width: 70%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width:full;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 4px #888888;
+}
+ .email,.password{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.error{
+    margin: 0;
+    color: red;
+    font-size: smaller;
+}
+.login-button
+{
+    margin-top:50px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgb(81, 81, 226);
+    color: white;
+    cursor: pointer;
+}
